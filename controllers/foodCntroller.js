@@ -59,6 +59,8 @@ const getFoods = async (nutrition, nova) => {
 
 async function findAll(req, res) {
 
+  // #swagger.tags = ['Products']
+
    const data = await getFoods(
      req.params.nutrition,
      req.params.nova
@@ -69,6 +71,8 @@ async function findAll(req, res) {
 
 
 async function findOne(req, res) {
+
+  // #swagger.tags = ['Products']
   
    try {
     

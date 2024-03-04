@@ -19,6 +19,9 @@
   "paths": {
     "/products/{nutrition}/{nova}": {
       "get": {
+        "tags": [
+          "Products"
+        ],
         "description": "",
         "parameters": [
           {
@@ -43,6 +46,9 @@
     },
     "/product/{id}/{search_value}": {
       "get": {
+        "tags": [
+          "Products"
+        ],
         "description": "",
         "parameters": [
           {
