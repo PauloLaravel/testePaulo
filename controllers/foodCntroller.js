@@ -166,7 +166,6 @@ async function findOne(req, res) {
         }) 
 
          return {
-          "test": '',
           "title": title,
           "quantity": quantity,
           "ingredients": {
