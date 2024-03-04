@@ -19,7 +19,7 @@
   http://localhost:3000/products/A/1  
 
 # Busca dos detalhes de um produto parametros:  product/id/search_value
-  http://localhost:3000/product/7892840815769/aveia-em-flocos-finos-quaker 
+  http://localhost:3000/product/8011780000922/nudeln-spaghetti-riscossa 
 
 # Principais desafios:
   O meu principal desafio nesse projeto foi tentar implementar busca de 
