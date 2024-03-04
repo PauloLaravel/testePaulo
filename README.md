@@ -15,12 +15,10 @@
 # Acessando Endpoints no swagger:
   http://localhost:3000/swagger/ 
 
-# Busca de produtos:
-                          nutrition/nova
+# Busca de produtos parametros: products/nutrition/nova
   http://localhost:3000/products/A/1  
 
-# Busca dos detalhes de um produto:
-                                            id/search_value
+# Busca dos detalhes de um produto parametros:  product/id/search_value
   http://localhost:3000/product/7892840815769/aveia-em-flocos-finos-quaker 
 
 # Principais desafios:
